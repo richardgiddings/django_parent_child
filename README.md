@@ -7,3 +7,7 @@ To run (once Django installed):
 - ./manage.py migrate
 - ./manage.py createsuperuser
 - ./manage.py runserver
+
+To run tests use:
+
+./manage test
