@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Parents</h2>
+{% if parent_list %}
+    {% for parent in parent_list %}
+        <div>
+            {{ parent.firstname }}
+            <a href="{% url 'pc:children' parent.id %}">   
+                Children
+            </a>
+        </div>
+    {% endfor %}
+{% else %}
+    <div>
+        There are no parents yet.
+    </div>
+{% endif %}
+
+{% endblock %}
