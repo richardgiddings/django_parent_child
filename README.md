@@ -12,7 +12,7 @@ To run tests use:
 
 - ./manage test
 
-This application also be deployed on Heroku. To run locally you will need the settings:
+This application can also be deployed on Heroku. To run locally you will need the settings:
 
 - SECRET_KEY='<your_secret_key>'
 - ALLOWED_HOST=''
