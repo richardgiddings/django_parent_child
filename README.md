@@ -14,9 +14,9 @@ To run tests use:
 
 This application also be deployed on Heroku. To run locally you will need the settings:
 
-SECRET_KEY='<your_secret_key>'
-ALLOWED_HOST=''
-DJANGO_SETTINGS_MODULE=django_parent_child.local_settings
+- SECRET_KEY='<your_secret_key>'
+- ALLOWED_HOST=''
+- DJANGO_SETTINGS_MODULE=django_parent_child.local_settings
 
 then run 'heroku local web'.
 
