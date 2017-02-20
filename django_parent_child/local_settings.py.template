@@ -1,0 +1,14 @@
+from django_parent_child.settings import *
+
+DEBUG = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'parent_child',
+        'USER':'<fill_in>',
+        'PASSWORD':'<fill_in>',
+        'HOST':'127.0.0.1',
+        'PORT':'5432',
+    }
+}
